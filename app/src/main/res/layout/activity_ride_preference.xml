@@ -1,0 +1,38 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:padding="16dp">
+
+
+<!-- RadioGroup for ride preference -->
+    <RadioGroup
+        android:id="@+id/rg_ride_preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </RadioGroup>
+
+    <!-- Button to save the preference -->
+
+    <RadioButton
+        android:id="@+id/rb_need_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I need a ride" />
+
+    <RadioButton
+        android:id="@+id/rb_not_need_ride"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="I don't need a ride" />
+
+    <Button
+        android:id="@+id/btn_save_preference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save Preference" />
+</LinearLayout>

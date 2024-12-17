@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Location Display -->
+    <TextView
+        android:id="@+id/locationText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location: Not Set" />
+
+    <!-- Car Model Field -->
+    <EditText
+        android:id="@+id/edtCarModel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Car Model" />
+
+    <!-- License Plate Field -->
+    <EditText
+        android:id="@+id/edtLicensePlate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="License Plate" />
+
+    <!-- Price per Kilometer Field -->
+    <EditText
+        android:id="@+id/edtPricePerKm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price per KM"
+        android:inputType="numberDecimal" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save" />
+
+    <!-- Passenger Email Field -->
+    <EditText
+        android:id="@+id/et_passenger_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Passenger Email" />
+
+    <!-- View Rating Button -->
+    <Button
+        android:id="@+id/btn_view_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Passenger Rating" />
+
+</LinearLayout>

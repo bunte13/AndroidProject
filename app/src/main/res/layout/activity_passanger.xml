@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Button to search drivers -->
+    <Button
+        android:id="@+id/searchDriversButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search Drivers" />
+
+    <!-- RecyclerView to display the list of drivers -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/driversRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <!-- ProgressBar to indicate loading -->
+    <ProgressBar
+        android:id="@+id/loadingProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <!-- Button to request ride -->
+    <Button
+        android:id="@+id/requestRideButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request Ride" />
+</LinearLayout>

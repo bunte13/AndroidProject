@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Name Input Field -->
+    <EditText
+        android:id="@+id/et_name_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name" />
+
+    <!-- Email Input Field -->
+    <EditText
+        android:id="@+id/et_email_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your email" />
+
+    <!-- Password Input Field -->
+    <EditText
+        android:id="@+id/et_password_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:inputType="textPassword" />
+
+    <!-- Confirm Password Input Field -->
+    <EditText
+        android:id="@+id/et_confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm your password"
+        android:inputType="textPassword" />
+
+    <!-- User Type Selection -->
+    <RadioGroup
+        android:id="@+id/rg_user_type"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rb_driver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Driver" />
+
+        <RadioButton
+            android:id="@+id/rb_passenger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Passenger" />
+    </RadioGroup>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/btn_register_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+</LinearLayout>

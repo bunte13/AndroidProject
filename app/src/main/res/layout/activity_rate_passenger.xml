@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/et_passenger_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Passenger Email" />
+
+    <Button
+        android:id="@+id/btn_view_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Passenger Rating" />
+
+    <RatingBar
+        android:id="@+id/rating_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/btn_submit_rating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Rating" />
+</LinearLayout>
